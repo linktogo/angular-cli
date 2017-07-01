@@ -19,9 +19,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "assets/css/default.css",
+        "assets/css/layout.css",
+        "assets/css/media-queries.css",
+        "assets/css/magnific-popup.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/modernizr.js",
+        "assets/js/jquery.flexslider.js",
+        "assets/js/waypoints.js",
+        "assets/js/jquery.fittext.js",
+        "assets/js/magnific-popup.js",
+        "assets/js/init.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
