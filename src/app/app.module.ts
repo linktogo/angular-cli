@@ -3,8 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {HomeModule} from './features/home/home.module';
-import {HeaderModule} from "./shared/modules/header/header.module";
-import {HttpModule} from "@angular/http";
+import {HeaderModule} from './shared/modules/header/header.module';
+import {HttpModule} from '@angular/http';
+import {FooterModule} from './shared/modules/footer/footer.module';
+import {ResumeModule} from "./shared/modules/resume/resume.module";
+import {ContactModule} from "./shared/modules/contact/contact.module";
+import {SkillModule} from "./shared/modules/skill/skill.module";
+import {StudyModule} from "./shared/modules/study/study.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import {HttpModule} from "@angular/http";
     BrowserModule,
     HttpModule,
     HomeModule,
-    HeaderModule
+    HeaderModule,
+    FooterModule,
+    ResumeModule,
+    ContactModule,
+    SkillModule,
+    StudyModule
   ],
   providers: [],
   bootstrap: [AppComponent]
