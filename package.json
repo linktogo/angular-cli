@@ -1,7 +1,7 @@
 {
-  "name": "angular-cli",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "linktogo-cv",
+  "version": "0.0.1",
+  "license": "Linktogo tm",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -26,9 +26,9 @@
     "zone.js": "^0.8.12"
   },
   "devDependencies": {
-    "@angular/cli": "1.1.3",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/language-service": "^4.0.0",
+    "@angular/cli": "1.2.0",
+    "@angular/compiler-cli": "4.2.5",
+    "@angular/language-service": "4.2.5",
     "@types/jasmine": "2.5.45",
     "@types/node": "~6.0.60",
     "codelyzer": "~3.0.1",
