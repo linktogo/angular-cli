@@ -23,6 +23,19 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+  <script>
+    scrollChecker = () => {
+    let scrollValue = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (scrollValue < screen.height + 200) {
+        document.getElementById('parallax-banner').style.backgroundPosition = 'left 0px bottom -' + (scrollValue / 2) + 'px';
+    }
+};
+
+animLoog = () => {
+    requestAnimationFrame(this.animloop);
+    this.scrollChecker();
+};
+  </script>
 
 </body>
 </html>
